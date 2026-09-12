@@ -248,6 +248,8 @@
 
 ## 核心交付收尾
 
+- [x] 提供 GCP 三個 SSH 終端的 Demo 啟動器，管理背景 app-server 並保留學習資料。49 個 Python 測試通過，本機實際 binary 的啟動與 SIGHUP 清理驗證通過；尚未在 GCP VM 實跑。
+
 - [x] 在 overall_testing 根目錄加入 `client-side-scheduling-demo.md`，補齊部署與啟動步驟。
 
 - [x] 修正實際 cwd 與 snapshot 的 symlink 路徑比對，防止意外 fallback。
