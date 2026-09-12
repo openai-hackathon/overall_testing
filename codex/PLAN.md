@@ -248,6 +248,8 @@
 
 ## 核心交付收尾
 
+- [x] 在 overall_testing 根目錄加入 `client-side-scheduling-demo.md`，補齊部署與啟動步驟。
+
 - [x] 修正實際 cwd 與 snapshot 的 symlink 路徑比對，防止意外 fallback。
 
 - [x] 自動比較未知 key，去重問題，以 reference 連接比較圖。

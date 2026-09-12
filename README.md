@@ -1,3 +1,7 @@
+## Client-side scheduling demo
+
+See [client-side-scheduling-demo.md](client-side-scheduling-demo.md) for setup, automatic verification, and two interactive Codex sessions.
+
 ## On GCP
 Machine 1: vllm-router + responses_converter.py
 Machine 2: codex exec
