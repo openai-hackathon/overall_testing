@@ -2223,6 +2223,7 @@ dependencies = [
  "codex-rmcp-client",
  "codex-rollout",
  "codex-sandboxing",
+ "codex-scheduler-extension",
  "codex-shell-command",
  "codex-skills",
  "codex-skills-extension",
@@ -4460,6 +4461,18 @@ dependencies = [
  "tracing",
  "url",
  "which 8.0.0",
+]
+
+[[package]]
+name = "codex-scheduler-extension"
+version = "0.0.0"
+dependencies = [
+ "codex-code-mode-protocol",
+ "codex-extension-api",
+ "pretty_assertions",
+ "serde_json",
+ "tokio",
+ "tracing",
 ]
 
 [[package]]

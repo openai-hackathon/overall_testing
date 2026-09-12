@@ -70,6 +70,7 @@ members = [
     "ext/memories",
     "ext/mcp",
     "ext/queue",
+    "ext/scheduler",
     "ext/skills",
     "ext/web-search",
     "external-agent-migration",
@@ -253,6 +254,7 @@ codex-process-hardening = { path = "process-hardening" }
 codex-protocol = { path = "protocol" }
 codex-prompts = { path = "prompts" }
 codex-queue-extension = { path = "ext/queue" }
+codex-scheduler-extension = { path = "ext/scheduler" }
 codex-responses-api-proxy = { path = "responses-api-proxy" }
 codex-response-debug-context = { path = "response-debug-context" }
 codex-rmcp-client = { path = "rmcp-client" }

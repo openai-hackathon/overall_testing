@@ -1,0 +1,18 @@
+{
+  "app_server_processes": 2,
+  "model": "fixed local SSE mock",
+  "lm_expansion": "deterministic fake",
+  "fit_version": 4,
+  "grant_order": [
+    "incident",
+    "oss"
+  ],
+  "waiting_timestamps_preserved": true,
+  "queued_cancellation": "passed",
+  "other_waiter_after_cancellation": "passed",
+  "successful_tool_outputs": 3,
+  "statuses": [
+    "completed",
+    "completed"
+  ]
+}

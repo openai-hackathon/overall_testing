@@ -1,0 +1,9 @@
+{
+  "automatic_question": "answered with synthetic 0.9 input",
+  "backend": "OpenAI Responses API",
+  "model": "gpt-5.6-luna",
+  "reasoning_effort": "medium",
+  "fit_version": 2,
+  "score_count": 9,
+  "fallback_granted_before_answer": true
+}

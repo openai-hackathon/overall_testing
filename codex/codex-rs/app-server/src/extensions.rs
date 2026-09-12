@@ -80,6 +80,11 @@ where
     if let Some(queue_service) = queue_service {
         codex_queue_extension::install(&mut builder, queue_service);
     }
+    if let Some(scheduler) = codex_scheduler_extension::shared_from_env() {
+        codex_scheduler_extension::install(&mut builder, scheduler, |config: &Config| {
+            config.cwd.to_path_buf()
+        });
+    }
     codex_history_notes_extension::install(&mut builder, auth_manager.clone());
     if let Some(state_db) = state_db {
         codex_goal_extension::install_with_backend(
