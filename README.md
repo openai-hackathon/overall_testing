@@ -1,4 +1,8 @@
-## Running the Full Stack
+## On GCP
+Machine 1: vllm-router + responses_converter.py
+Machine 2: codex exec
+
+## Locally running the Full Stack
 
 Start in this order. Each component needs its own terminal.
 

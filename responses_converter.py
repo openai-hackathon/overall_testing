@@ -215,7 +215,7 @@ def main():
     args = p.parse_args()
     UPSTREAM = args.upstream
     print(f"responses-converter  127.0.0.1:{args.port}  →  {UPSTREAM}")
-    uvicorn.run(app, host="127.0.0.1", port=args.port, log_level="info")
+    uvicorn.run(app, host="0.0.0.0", port=args.port, log_level="info")
 
 
 if __name__ == "__main__":
